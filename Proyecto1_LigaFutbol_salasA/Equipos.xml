@@ -1,0 +1,26 @@
+<Equipos>
+	<Equipo>
+		<ID_Equipo>1</ID_Equipo>
+		<Nombre_Equipo>Movistar Inter</Nombre_Equipo>
+	</Equipo>
+	<Equipo>
+		<ID_Equipo>2</ID_Equipo>
+		<Nombre_Equipo>Barça</Nombre_Equipo>
+	</Equipo>
+	<Equipo>
+		<ID_Equipo>3</ID_Equipo>
+		<Nombre_Equipo>ElPozo Murcia</Nombre_Equipo>
+	</Equipo>
+	<Equipo>
+		<ID_Equipo>4</ID_Equipo>
+		<Nombre_Equipo>Palma Futsal</Nombre_Equipo>
+	</Equipo>
+	<Equipo>
+		<ID_Equipo>5</ID_Equipo>
+		<Nombre_Equipo>C.A Osasuna Magna</Nombre_Equipo>
+	</Equipo>
+	<Equipo>
+		<ID_Equipo>6</ID_Equipo>
+		<Nombre_Equipo>Viña Albali Valdepeñas</Nombre_Equipo>
+	</Equipo>
+</Equipos>
