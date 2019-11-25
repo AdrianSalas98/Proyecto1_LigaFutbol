@@ -66,7 +66,6 @@ public class Main {
 		Connection conn = null;
 		try {
 			conn = DriverManager.getConnection(rutaDB);
-
 		} catch (SQLException e) {
 			System.out.println(e.getMessage());
 		} finally {
@@ -170,9 +169,9 @@ public class Main {
 			if (rs.next() == false) {
 				ps = conn.prepareStatement(sql2);
 
-				NodeList equipo = doc.getElementsByTagName("Jugador");
+				NodeList jugador = doc.getElementsByTagName("Jugador");
 
-				for (int i = 0; i < equipo.getLength(); i++) {
+				for (int i = 0; i < jugador.getLength(); i++) {
 					NodeList nl1 = doc.getElementsByTagName("ID_Jugador");
 					ps.setInt(1, Integer.parseInt(nl1.item(i).getTextContent()));
 					NodeList nl2 = doc.getElementsByTagName("Nombre_Jugador");
